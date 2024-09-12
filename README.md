@@ -21,14 +21,14 @@ This repo is named BlenderImageRename, but it can also be used for anything else
 
 ## Install
 cd into your installation folder of choice, then execute:
->> git clone https://github.com/Michael-Rudolf/BlenderImageRename
+> git clone https://github.com/Michael-Rudolf/BlenderImageRename
 
->> cd BlenderImageRename
+> cd BlenderImageRename
 
 ## Use
 Make sure you are in the folder in which you installed BlenderImageRename.
 Execute:
->> python3 main.py <destination folder> <lowest image number> <highest image number> <image format>
+> python3 main.py <destination folder> <lowest image number> <highest image number> <image format>
 
 destination folder:
         The folder in which the images that should be renamed are.
@@ -48,12 +48,12 @@ When everything worked properly, you should see Done.
 You've got photos from a camera in the folder '~/Documents/ImagesFromCamera'.
 The first image is named 0000.png and the last one 0185.png.
 The command is gonna look like this:
->> python3 main.py ~/Documents/ImagesFromCamera/ 0 185 png
+> python3 main.py ~/Documents/ImagesFromCamera/ 0 185 png
 
 ## Known problems and future changes
 ### Command is complicated to use.
 I'm working on an easier version with an execution more like:
-./birename <destination folder>
+> ./birename <destination folder>
 ### Not compatible with anything but 4 numbers (0001 works but not 001).
 I'm working on it, but there's is a workaround:
 Edit the 4 at line 13 column 39 to be however many you need.
