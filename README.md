@@ -28,7 +28,7 @@ cd into your installation folder of choice, then execute:
 ## Use
 Make sure you are in the folder in which you installed BlenderImageRename.
 Execute:
-> python3 main.py destination_folder lowest_image_number> highest_image_number format
+> python3 main.py destination_folder lowest_image_number highest_image_number format
 
 destination folder:
         The folder in which the images that should be renamed are.
