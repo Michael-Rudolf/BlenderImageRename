@@ -20,8 +20,9 @@ This repo is named BlenderImageRename, but it can also be used for anything else
 - python3-math
 
 ## Install
->> cd into your installation folder of choice, then execute:
+cd into your installation folder of choice, then execute:
 >> git clone https://github.com/Michael-Rudolf/BlenderImageRename
+
 >> cd BlenderImageRename
 
 ## Use
