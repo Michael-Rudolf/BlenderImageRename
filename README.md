@@ -28,7 +28,7 @@ cd into your installation folder of choice, then execute:
 ## Use
 Make sure you are in the folder in which you installed BlenderImageRename.
 Execute:
-> python3 main.py <destination folder> <lowest image number> <highest image number> <image format>
+> python3 main.py destination_folder lowest_image_number> highest_image_number format
 
 destination folder:
         The folder in which the images that should be renamed are.
@@ -38,8 +38,8 @@ lowest image number:
         lowest image number...highest image number is the range in which images will be edited.
 highest image number:
         The last image that will be edited.
-image format:
-        This can be anything, and doesn't even necessarily have to be an image format, it'll just usually be one. Common: png jpeg jpg pdf.
+format:
+        The format of what you want to rename. Common: png jpeg jpg pdf.
         This mustn't include a dot before the format.
 
 When everything worked properly, you should see Done.
@@ -53,7 +53,7 @@ The command is gonna look like this:
 ## Known problems and future changes
 ### Command is complicated to use.
 I'm working on an easier version with an execution more like:
-> ./birename <destination folder>
+> ./birename destination_folder
 ### Not compatible with anything but 4 numbers (0001 works but not 001).
 I'm working on it, but there's is a workaround:
 Edit the 4 at line 13 column 39 to be however many you need.
