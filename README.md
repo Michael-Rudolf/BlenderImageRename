@@ -26,6 +26,12 @@ cd into your installation folder of choice, then execute:
 > cd BlenderImageRename
 
 ## Use
+### New command (recommended)
+Make sure you are in the directory you installed Blender Image Rename in.
+> sudo bash birename.sh destination_folder
+The destination_folder is the folder in which the images that should be renamed are.
+
+### Old command (hard to use - legacy - more control)
 Make sure you are in the folder in which you installed BlenderImageRename.
 Execute:
 > python3 main.py destination_folder lowest_image_number highest_image_number format
@@ -44,16 +50,13 @@ format:
 
 When everything worked properly, you should see Done.
 
-### Example
+#### Example
 You've got photos from a camera in the folder '~/Documents/ImagesFromCamera'.
 The first image is named 0000.png and the last one 0185.png.
 The command is gonna look like this:
 > python3 main.py ~/Documents/ImagesFromCamera/ 0 185 png
 
 ## Known problems and future changes
-### Command is complicated to use.
-I'm working on an easier version with an execution more like:
-> ./birename destination_folder
 ### Not compatible with anything but 4 numbers (0001 works but not 001).
 I'm working on it, but there's is a workaround:
 Edit the 4 at line 13 column 39 to be however many you need.
