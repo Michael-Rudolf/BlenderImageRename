@@ -29,6 +29,7 @@ cd into your installation folder of choice, then execute:
 ### New command (recommended)
 Make sure you are in the directory you installed Blender Image Rename in.
 > sudo bash birename.sh destination_folder
+
 The destination_folder is the folder in which the images that should be renamed are.
 
 ### Old command (hard to use - legacy - more control)
