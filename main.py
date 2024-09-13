@@ -2,8 +2,8 @@ import sys
 import math
 import os
 
-print("Usage: python3 <destination folder path> <Lowest image number (likely 1)> <Highest image number> <file type>")
-print("Make sure that the destination folder path ends with /")
+#Usage: python3 <destination folder path> <Lowest image number (likely 1)> <Highest image number> <file type>"
+#Make sure that the destination folder path ends with /
 
 destination_folder_path = sys.argv[1]
 lowest_image_to_rename = int(sys.argv[2])
@@ -20,4 +20,7 @@ for i in range(lowest_image_to_rename, highest_image_to_rename):
                 print(f"Renaming {old_file_name_string} into {new_file_name_string}.")
                 os.rename(destination_folder_path + old_file_name_string, destination_folder_path + new_file_name_string)
 
+
+# Sleep to potentially get the user's attention.
+os.system("sleep 3") # Don't use time.sleep(3) to reduce dependencies.
 print("\033[92mDone\033[0m")
