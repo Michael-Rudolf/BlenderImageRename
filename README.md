@@ -59,5 +59,5 @@ The command is gonna look like this:
 
 ## Known problems and future changes
 ### Not compatible with anything but 4 numbers (0001 works but not 001).
-I'm working on it, but there's is a workaround:
+There's is a workaround:
 Edit the 4 at line 13 column 39 to be however many you need.
